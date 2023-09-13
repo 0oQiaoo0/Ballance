@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\LaunchLoop.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\Camera.cpp">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\d3dApp.cpp">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\d3dUtil.cpp">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\DDSTextureLoader.cpp">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui.cpp">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui_demo.cpp">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui_draw.cpp">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\imgui_impl_dx12.cpp">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\imgui_impl_win32.cpp">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui_tables.cpp">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui_widgets.cpp">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\GameEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\GeometryGenerator.cpp">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\core\GlobalContext.cpp">
+      <Filter>Engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\LoadM3d.cpp">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\ShadowMap.cpp">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\core\Logger.cpp">
+      <Filter>Engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\Pass\MainCameraPass.cpp">
+      <Filter>Engine\Render\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\Renderer.cpp">
+      <Filter>Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\UISystem.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\SkinnedData.cpp">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Ssao.cpp">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Common\PhysXCallback.cpp">
+      <Filter>Engine\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\Pass\ShadowMapPass.cpp">
+      <Filter>Engine\Render\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\GameTimer.cpp">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\MathHelper.cpp">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\dx12\FrameResource.cpp">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Framework\GameObject.cpp">
+      <Filter>Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Framework\Scene.cpp">
+      <Filter>Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\RenderScene.cpp">
+      <Filter>Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Input\InputSystem.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Physics\PhysScene.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Physics\ContactReportCallback.cpp">
+      <Filter>Engine\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Render\Pass\UIPass.cpp">
+      <Filter>Engine\Render\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\core\ThreadPool.cpp">
+      <Filter>Engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\UIState.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scenes\TestScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\PlayerBall.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\PlayerBallScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\CameraEntity.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\imgui_impl_dx11.cpp">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\UIGaming.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\UI\UIMain.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\Model.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Timer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\CheckPointScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\CheckPoint.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\core\math.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\MyTrigger.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\MyTriggerScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Framework\Component.cpp">
+      <Filter>Engine\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Framework\Components\CameraComponent.cpp">
+      <Filter>Engine\Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Framework\Components\MeshRendererComponent.cpp">
+      <Filter>Engine\Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Framework\Components\RigidbodyComponent.cpp">
+      <Filter>Engine\Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Framework\Components\TransformComponent.cpp">
+      <Filter>Engine\Framework\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Editor\AssetManager.cpp" />
+    <ClCompile Include="..\..\src\Engine\core\math.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\UILoading.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Obstacle.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Framework\NetGameObject.cpp" />
+    <ClCompile Include="..\..\src\Engine\Net\NetManager.cpp" />
+    <ClCompile Include="..\..\src\Network\ActorChannel.cpp" />
+    <ClCompile Include="..\..\src\Network\Client.cpp" />
+    <ClCompile Include="..\..\src\Network\Connection.cpp" />
+    <ClCompile Include="..\..\src\Network\Server.cpp" />
+    <ClCompile Include="..\..\src\Network\testHelloworld.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Bridge.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\BridgeScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\Plank.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\PlankScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\NetPlayerBall.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\GameProp.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\GamePropScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\RobotBall.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleEmitter.cpp" />
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleEmitterPressure.cpp" />
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleEmitterRate.cpp" />
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleSystem.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\ObstacleScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\ModelScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\ModelPiece.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Audio\AudioSystem.cpp">
+      <Filter>Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\Door.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\DoorScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\FixedPoint.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\FixedPointScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\Hammer.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\HammerScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\Transformer.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Scripts\TransformerScript.cpp">
+      <Filter>Game\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\SampleCharacterClothFlag.cpp">
+      <Filter>Game\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\RobotBallTrigger.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\RBallTriggerScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Fence.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\FenceScript.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\Pass\RenderPassBase.cpp">
+      <Filter>Engine\Render\Pass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\core\ModelLoader.cpp">
+      <Filter>Engine\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Game\Entities\ParticleEntity.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\ParticleScript.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\UILoading.cpp">
+      <Filter>Engine\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleScene.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\Camera.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\d3dApp.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\d3dUtil.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\d3dx12.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\DDSTextureLoader.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imgui.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui_impl_dx12.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui_impl_win32.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imgui_internal.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imstb_rectpack.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imstb_textedit.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imstb_truetype.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imconfig.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\GameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\GeometryGenerator.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\core\GlobalContext.h">
+      <Filter>Engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\LoadM3d.h">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\ShadowMap.h">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\core\Logger.h">
+      <Filter>Engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\Pass\MainCameraPass.h">
+      <Filter>Engine\Render\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\core\macro.h">
+      <Filter>Engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\Renderer.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\UISystem.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Ssao.h">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\SkinnedData.h">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Common\PxTkFile.h">
+      <Filter>Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Common\PhysXCallback.h">
+      <Filter>Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Common\Print.h">
+      <Filter>Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Common\PVD.h">
+      <Filter>Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\Pass\ShadowMapPass.h">
+      <Filter>Engine\Render\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\GameTimer.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\MathHelper.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\UploadBuffer.h">
+      <Filter>Engine\Render\dx12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\dx12\FrameResource.h">
+      <Filter>Engine\Render\dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\RenderResource.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Common\FrameworkFoundation.h">
+      <Filter>Engine\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Framework\GameObject.h">
+      <Filter>Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Framework\Scene.h">
+      <Filter>Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Render\RenderScene.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Input\InputSystem.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Physics\PhysScene.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Physics\ContactReportCallback.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\core\SyncQueue.h" />
+    <ClInclude Include="..\..\src\Engine\UI\stb_image.h" />
+    <ClInclude Include="..\..\src\Engine\Render\Pass\UIPass.h">
+      <Filter>Engine\Render\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\core\ThreadPool.h">
+      <Filter>Engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\UIState.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scenes\TestScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\PlayerBall.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\PlayerBallScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\CameraEntity.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\imgui_impl_dx11.h">
+      <Filter>Engine\UI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\Font.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\UIGaming.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\UIMain.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\core\SyncQueue.h">
+      <Filter>Engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\UI\stb_image.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\Model.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Timer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\CheckPointScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\CheckPointScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\CheckPoint.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\core\math.h" />
+    <ClInclude Include="..\..\src\Game\Entities\MyTrigger.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\MyTriggerScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Framework\Component.h">
+      <Filter>Engine\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Framework\Components\CameraComponent.h">
+      <Filter>Engine\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Framework\Components\MeshRendererComponent.h">
+      <Filter>Engine\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Framework\Components\RigidbodyComponent.h">
+      <Filter>Engine\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Framework\Components\TransformComponent.h">
+      <Filter>Engine\Framework\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Editor\AssetManager.h" />
+    <ClInclude Include="..\..\src\Engine\core\math.h" />
+    <ClInclude Include="..\..\src\Engine\UI\UILoading.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Obstacle.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Framework\NetGameObject.h" />
+    <ClInclude Include="..\..\src\Engine\Net\NetManager.h" />
+    <ClInclude Include="..\..\src\Network\ActorChannel.h" />
+    <ClInclude Include="..\..\src\Network\Client.h" />
+    <ClInclude Include="..\..\src\Network\Connection.h" />
+    <ClInclude Include="..\..\src\Network\NetType.h" />
+    <ClInclude Include="..\..\src\Network\Server.h" />
+    <ClInclude Include="..\..\src\Network\test.helloworld.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Bridge.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\BridgeScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\Plank.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\PlankScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\NetPlayerBall.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\GameProp.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\GamePropScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\RobotBall.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleEmitter.h" />
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleEmitterPressure.h" />
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleEmitterRate.h" />
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleSystem.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\ObstacleScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\ModelScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\ModelPiece.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\Door.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\DoorScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\FixedPoint.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\FixedPointScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Audio\AudioSystem.h">
+      <Filter>Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\Hammer.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\HammerScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\Transformer.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\TransformerScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Utils.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\RobotBallTrigger.h">
+      <Filter>Game\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Scripts\RBallTriggerScript.h">
+      <Filter>Game\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\SampleCharacterClothFlag.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Fence.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\FenceScript.h" />
+    <ClInclude Include="..\..\src\Engine\Render\Pass\RenderPassBase.h">
+      <Filter>Engine\Render\Pass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\core\ModelLoader.h">
+      <Filter>Engine\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Game\Entities\ParticleEntity.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\ParticleScript.h" />
+    <ClInclude Include="..\..\src\Engine\UI\UILoading.h">
+      <Filter>Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleScene.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{3d81e85d-6b51-4ddd-9c93-0260350a0d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{df2cea85-6aab-46bb-94f9-d89b6a4dba01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{ee10893f-4917-4056-8997-a398a2ba7d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Common">
+      <UniqueIdentifier>{98d02702-4dab-46ae-98cd-dc385833c3f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render">
+      <UniqueIdentifier>{ee4c54da-9a3e-4c1c-9b25-22421c7dd59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render\dx12">
+      <UniqueIdentifier>{a5e5aef3-40eb-411e-8a13-4e15813ac81c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render\Pass">
+      <UniqueIdentifier>{064c5bbe-e1ae-432c-b4f2-e0489e26453f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\UI">
+      <UniqueIdentifier>{657692af-a446-46a5-9f9d-77d9d5821984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\UI\imgui">
+      <UniqueIdentifier>{2ac6685d-8faa-4e54-b323-49f08bf5b020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render\dx12\Common">
+      <UniqueIdentifier>{9877375d-ab20-434f-a714-dead95aafa70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\DemoTest">
+      <UniqueIdentifier>{20260863-0610-4003-b7f2-56798fb0badb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Framework">
+      <UniqueIdentifier>{9bcb6ea0-61d9-4727-8584-5105df9e6318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\core">
+      <UniqueIdentifier>{ba2805dc-d9fb-4503-a80e-40a3d8193b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9f746c3d-2aed-43ee-87cb-4f603d7d4209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{0c380682-4443-4096-9301-6d39e41f8ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{ecb29b07-b154-4161-84af-34304b63984b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics">
+      <UniqueIdentifier>{7342a25f-315f-4f6a-8b66-2063be3dd82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{440ae85d-5363-435f-9c6e-f85e86e73700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scripts">
+      <UniqueIdentifier>{abf6bd95-f3a8-45b0-9e3e-d496103cb9e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities">
+      <UniqueIdentifier>{349baf06-a771-4c5d-8819-a22117370c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Framework\Components">
+      <UniqueIdentifier>{d1852392-b7b0-4061-a3f6-f964ee20f310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio">
+      <UniqueIdentifier>{4a0d56f0-e547-4268-9254-c4c22eee8ea1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BallGame.rc" />
+  </ItemGroup>
+</Project>

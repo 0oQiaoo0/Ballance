@@ -1,0 +1,13 @@
+# Blender MTL File: 'None'
+# Material Count: 1
+
+newmtl Glass
+Ns 60.223996
+Ka 1.000000 1.000000 1.000000
+Kd 0.700000 0.104314 0.052157
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.650000
+illum 6
+map_Kd Level01.fbm\\red.png

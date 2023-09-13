@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Engine\Audio\AudioSystem.cpp" />
+    <ClCompile Include="..\..\src\Engine\Common\PhysXCallback.cpp" />
+    <ClCompile Include="..\..\src\Engine\core\GlobalContext.cpp" />
+    <ClCompile Include="..\..\src\Engine\core\Logger.cpp">
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <Optimization>Disabled</Optimization>
+      <SupportJustMyCode>true</SupportJustMyCode>
+      <AssemblerOutput>NoListing</AssemblerOutput>
+      <AssemblerListingLocation>./x64/GameDemo/debug\</AssemblerListingLocation>
+      <UndefineAllPreprocessorDefinitions>false</UndefineAllPreprocessorDefinitions>
+      <BrowseInformation>false</BrowseInformation>
+      <BrowseInformationFile>./x64/GameDemo/debug\</BrowseInformationFile>
+      <CompileAs>Default</CompileAs>
+      <ConformanceMode>true</ConformanceMode>
+      <DiagnosticsFormat>Column</DiagnosticsFormat>
+      <DisableLanguageExtensions>false</DisableLanguageExtensions>
+      <ErrorReporting>Prompt</ErrorReporting>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <EnableASAN>false</EnableASAN>
+      <EnableFiberSafeOptimizations>false</EnableFiberSafeOptimizations>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <GenerateModuleDependencies>false</GenerateModuleDependencies>
+      <GenerateSourceDependencies>false</GenerateSourceDependencies>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ModuleDependenciesFile>./x64/GameDemo/debug\</ModuleDependenciesFile>
+      <ModuleOutputFile>./x64/GameDemo/debug\</ModuleOutputFile>
+      <OmitDefaultLibName>false</OmitDefaultLibName>
+      <FavorSizeOrSpeed>Neither</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <ObjectFileName>./x64/GameDemo/debug\</ObjectFileName>
+      <CallingConvention>Cdecl</CallingConvention>
+      <ProgramDataBaseFileName>./x64/GameDemo/debug\vc142.pdb</ProgramDataBaseFileName>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>./x64/GameDemo/debug\BallGameDEBUG.pch</PrecompiledHeaderOutputFile>
+      <PreprocessToFile>false</PreprocessToFile>
+      <PreprocessKeepComments>false</PreprocessKeepComments>
+      <PreprocessSuppressLineNumbers>false</PreprocessSuppressLineNumbers>
+      <RemoveUnreferencedCodeData>true</RemoveUnreferencedCodeData>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+      <ShowIncludes>false</ShowIncludes>
+      <SourceDependenciesFile>./x64/GameDemo/debug\</SourceDependenciesFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <SpectreMitigation>false</SpectreMitigation>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <TrackerLogDirectory>./x64/GameDemo/debug\BallGame.tlog\</TrackerLogDirectory>
+      <TranslateIncludes>false</TranslateIncludes>
+      <MinimalRebuildFromTracking>true</MinimalRebuildFromTracking>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <XMLDocumentationFileName>./x64/GameDemo/debug\</XMLDocumentationFileName>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <IntelJCCErratum>false</IntelJCCErratum>
+      <TreatAngleIncludeAsExternal>false</TreatAngleIncludeAsExternal>
+      <ExternalWarningLevel>InheritWarningLevel</ExternalWarningLevel>
+      <TreatExternalTemplatesAsInternal>true</TreatExternalTemplatesAsInternal>
+      <DisableAnalyzeExternal>false</DisableAnalyzeExternal>
+      <PreprocessorDefinitions>_MBCS;</PreprocessorDefinitions>
+      <SDLCheck>
+      </SDLCheck>
+      <AdditionalIncludeDirectories>./../../../Include;./../../../../PxShared/include;./../../../../PxShared/src/foundation/include;./../../../../PxShared/src/fastxml/include;./../../Graphics/include/win32/GL;./../../_include/PxShared/include;./../../_include/PxShared/src/foundation/include;./../../_include/PxShared/src/fastxml/include;./../../_include/Include;</AdditionalIncludeDirectories>
+      <LinkCompiled>true</LinkCompiled>
+      <RuntimeLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Engine\core\math.cpp" />
+    <ClCompile Include="..\..\src\Engine\core\ModelLoader.cpp" />
+    <ClCompile Include="..\..\src\Engine\core\ThreadPool.cpp" />
+    <ClCompile Include="..\..\src\Engine\Framework\Component.cpp" />
+    <ClCompile Include="..\..\src\Engine\Framework\Components\CameraComponent.cpp" />
+    <ClCompile Include="..\..\src\Engine\Framework\Components\MeshRendererComponent.cpp" />
+    <ClCompile Include="..\..\src\Engine\Framework\Components\RigidbodyComponent.cpp" />
+    <ClCompile Include="..\..\src\Engine\Framework\Components\TransformComponent.cpp" />
+    <ClCompile Include="..\..\src\Engine\Framework\GameObject.cpp" />
+    <ClCompile Include="..\..\src\Engine\Framework\NetGameObject.cpp" />
+    <ClCompile Include="..\..\src\Engine\Framework\Scene.cpp" />
+    <ClCompile Include="..\..\src\Engine\GameEngine.cpp" />
+    <ClCompile Include="..\..\src\Engine\Input\InputSystem.cpp" />
+    <ClCompile Include="..\..\src\Engine\Net\NetManager.cpp" />
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleEmitter.cpp" />
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleEmitterPressure.cpp" />
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleEmitterRate.cpp" />
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleScene.cpp" />
+    <ClCompile Include="..\..\src\Engine\Particle\ParticleSystem.cpp" />
+    <ClCompile Include="..\..\src\Engine\Physics\ContactReportCallback.cpp" />
+    <ClCompile Include="..\..\src\Engine\Physics\PhysScene.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\Camera.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\d3dApp.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\d3dUtil.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\DDSTextureLoader.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\GameTimer.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\GeometryGenerator.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Common\MathHelper.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\FrameResource.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\LoadM3d.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\ShadowMap.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\SkinnedData.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\dx12\Ssao.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\Pass\MainCameraPass.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\Pass\RenderPassBase.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\Pass\ShadowMapPass.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\Pass\UIPass.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Bridge.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Door.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Fence.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\FixedPoint.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\GameProp.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Hammer.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\ModelPiece.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\NetPlayerBall.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\ParticleEntity.cpp"/>
+    <ClCompile Include="..\..\src\Game\Entities\Plank.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\RobotBall.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\RobotBallTrigger.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Transformer.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\SampleCharacterClothFlag.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\BridgeScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\DoorScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\FenceScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\FixedPointScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\GamePropScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\HammerScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\ModelScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\ObstacleScript.cpp" />
+      <ClCompile Include="..\..\src\Game\Scripts\ParticleScript.cpp"/>
+    <ClCompile Include="..\..\src\Game\Scripts\PlankScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\RBallTriggerScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\TransformerScript.cpp" />
+    <ClCompile Include="..\..\src\Network\ActorChannel.cpp" />
+    <ClCompile Include="..\..\src\Network\Client.cpp" />
+    <ClCompile Include="..\..\src\Network\Connection.cpp" />
+    <ClCompile Include="..\..\src\Network\Server.cpp" />
+    <ClCompile Include="..\..\src\Network\testHelloworld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Engine\Audio\AudioSystem.h" />
+    <ClInclude Include="..\..\src\Engine\Common\FrameworkFoundation.h" />
+    <ClInclude Include="..\..\src\Engine\Common\PhysXCallback.h" />
+    <ClInclude Include="..\..\src\Engine\Common\Print.h" />
+    <ClInclude Include="..\..\src\Engine\Common\PVD.h" />
+    <ClInclude Include="..\..\src\Engine\Common\PxTkFile.h" />
+    <ClInclude Include="..\..\src\Engine\core\GlobalContext.h" />
+    <ClInclude Include="..\..\src\Engine\core\Logger.h" />
+    <ClInclude Include="..\..\src\Engine\core\macro.h" />
+    <ClInclude Include="..\..\src\Engine\core\math.h" />
+    <ClInclude Include="..\..\src\Engine\core\ModelLoader.h" />
+    <ClInclude Include="..\..\src\Engine\core\SyncQueue.h" />
+    <ClInclude Include="..\..\src\Engine\core\ThreadPool.h" />
+    <ClInclude Include="..\..\src\Engine\Framework\Component.h" />
+    <ClInclude Include="..\..\src\Engine\Framework\Components\CameraComponent.h" />
+    <ClInclude Include="..\..\src\Engine\Framework\Components\MeshRendererComponent.h" />
+    <ClInclude Include="..\..\src\Engine\Framework\Components\RigidbodyComponent.h" />
+    <ClInclude Include="..\..\src\Engine\Framework\Components\TransformComponent.h" />
+    <ClInclude Include="..\..\src\Engine\Framework\GameObject.h" />
+    <ClInclude Include="..\..\src\Engine\Framework\NetGameObject.h" />
+    <ClInclude Include="..\..\src\Engine\Framework\Scene.h" />
+    <ClInclude Include="..\..\src\Engine\GameEngine.h" />
+    <ClInclude Include="..\..\src\Engine\Input\InputSystem.h" />
+    <ClInclude Include="..\..\src\Engine\Net\NetManager.h" />
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleEmitter.h" />
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleEmitterPressure.h" />
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleEmitterRate.h" />
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleScene.h" />
+    <ClInclude Include="..\..\src\Engine\Particle\ParticleSystem.h" />
+    <ClInclude Include="..\..\src\Engine\Physics\ContactReportCallback.h" />
+    <ClInclude Include="..\..\src\Engine\Physics\PhysScene.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\Camera.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\d3dApp.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\d3dUtil.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\d3dx12.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\DDSTextureLoader.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\GameTimer.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\GeometryGenerator.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\MathHelper.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Common\UploadBuffer.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\FrameResource.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\LoadM3d.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\ShadowMap.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\SkinnedData.h" />
+    <ClInclude Include="..\..\src\Engine\Render\dx12\Ssao.h" />
+    <ClInclude Include="..\..\src\Engine\Render\Pass\MainCameraPass.h" />
+    <ClInclude Include="..\..\src\Engine\Render\Pass\RenderPassBase.h" />
+    <ClInclude Include="..\..\src\Engine\Render\Pass\ShadowMapPass.h" />
+    <ClInclude Include="..\..\src\Engine\Render\Pass\UIPass.h" />
+    <ClCompile Include="..\..\src\Engine\Render\Renderer.cpp" />
+    <ClCompile Include="..\..\src\Engine\Render\RenderScene.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui_demo.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui_draw.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui_tables.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\imgui_impl_dx11.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\imgui_impl_dx12.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\imgui_impl_win32.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\UIGaming.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\UILoading.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\UIMain.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\UIState.cpp" />
+    <ClCompile Include="..\..\src\Engine\UI\UISystem.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\CameraEntity.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\CheckPoint.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Model.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\MyTrigger.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\Obstacle.cpp" />
+    <ClCompile Include="..\..\src\Game\Entities\PlayerBall.cpp" />
+    <ClCompile Include="..\..\src\Game\Scenes\TestScene.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\CheckPointScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\MyTriggerScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Scripts\PlayerBallScript.cpp" />
+    <ClCompile Include="..\..\src\Game\Timer.cpp" />
+    <ClCompile Include="..\..\src\LaunchLoop.cpp" />
+    <ClInclude Include="..\..\src\Engine\Render\Renderer.h" />
+    <ClInclude Include="..\..\src\Engine\Render\RenderResource.h" />
+    <ClInclude Include="..\..\src\Engine\Render\RenderScene.h" />
+    <ClInclude Include="..\..\src\Engine\UI\Font.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imconfig.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imgui.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imgui_internal.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Bridge.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Door.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Fence.h" />
+    <ClInclude Include="..\..\src\Game\Entities\FixedPoint.h" />
+    <ClInclude Include="..\..\src\Game\Entities\GameProp.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Hammer.h" />
+    <ClInclude Include="..\..\src\Game\Entities\ModelPiece.h" />
+    <ClInclude Include="..\..\src\Game\Entities\NetPlayerBall.h" />
+      <ClInclude Include="..\..\src\Game\Entities\ParticleEntity.h"/>
+    <ClInclude Include="..\..\src\Game\Entities\Plank.h" />
+    <ClInclude Include="..\..\src\Game\Entities\RobotBall.h" />
+    <ClInclude Include="..\..\src\Game\Entities\RobotBallTrigger.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Transformer.h" />
+    <ClInclude Include="..\..\src\Game\Entities\SampleCharacterClothFlag.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\BridgeScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\DoorScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\FenceScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\FixedPointScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\GamePropScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\HammerScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\ModelScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\ObstacleScript.h" />
+      <ClInclude Include="..\..\src\Game\Scripts\ParticleScript.h"/>
+    <ClInclude Include="..\..\src\Game\Scripts\PlankScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\RBallTriggerScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\TransformerScript.h" />
+    <ClInclude Include="..\..\src\Game\Utils.h" />
+    <ClInclude Include="..\..\src\Network\ActorChannel.h" />
+    <ClInclude Include="..\..\src\Network\Client.h" />
+    <ClInclude Include="..\..\src\Network\Connection.h" />
+    <ClInclude Include="..\..\src\Network\NetType.h" />
+    <ClInclude Include="..\..\src\Network\Server.h" />
+    <ClInclude Include="..\..\src\Network\test.helloworld.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imstb_rectpack.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imstb_textedit.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui\imstb_truetype.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui_impl_dx11.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui_impl_dx12.h" />
+    <ClInclude Include="..\..\src\Engine\UI\imgui_impl_win32.h" />
+    <ClInclude Include="..\..\src\Engine\UI\stb_image.h" />
+    <ClInclude Include="..\..\src\Engine\UI\UIGaming.h" />
+    <ClInclude Include="..\..\src\Engine\UI\UILoading.h" />
+    <ClInclude Include="..\..\src\Engine\UI\UIMain.h" />
+    <ClInclude Include="..\..\src\Engine\UI\UIState.h" />
+    <ClInclude Include="..\..\src\Engine\UI\UISystem.h" />
+    <ClInclude Include="..\..\src\Game\Entities\CameraEntity.h" />
+    <ClInclude Include="..\..\src\Game\Entities\CheckPoint.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Model.h" />
+    <ClInclude Include="..\..\src\Game\Entities\MyTrigger.h" />
+    <ClInclude Include="..\..\src\Game\Entities\Obstacle.h" />
+    <ClInclude Include="..\..\src\Game\Entities\PlayerBall.h" />
+    <ClInclude Include="..\..\src\Game\Scenes\TestScene.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\CheckPointScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\MyTriggerScript.h" />
+    <ClInclude Include="..\..\src\Game\Scripts\PlayerBallScript.h" />
+    <ClInclude Include="..\..\src\Game\Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\README.md" />
+    <Content Include="..\..\src\Engine\UI\imgui\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="..\..\src\Asset" />
+      <Folder Include="..\..\src\Editor"/>
+    <Folder Include="..\..\src\Shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BallGame.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{809F8893-32BA-4FD4-86B6-F825B7778A82}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>BallGame</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>
+    </WholeProgramOptimization>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>./../../../bin/vc16win64\</OutDir>
+    <IntDir>./x64/GameDemo/debug\</IntDir>
+    <TargetName>$(ProjectName)debug2</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>./../../bin/vc16win64\</OutDir>
+    <IntDir>./x64/GameDemo/release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PxShared\include;E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PxShared\src\foundation\include;E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PhysX_3.4\Include;E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PhysX_3.4\Snippets\Graphics\include\win32\GL;E:\PhysX Visual Debugger\PhysX-3.4-master\PhysX-3.4-master\PxShared\src\fastxml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>./../../../Include;./../../../../PxShared/include;./../../../../PxShared/src/foundation/include;./../../../../PxShared/src/fastxml/include;./../../Graphics/include/win32/GL;./../../_include/PxShared/include;./../../_include/PxShared/src/foundation/include;./../../_include/PxShared/src/fastxml/include;./../../_include/Include;./../../_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(WindowsSDK_LibraryPath_x64);./../../../Common/lib/vc16win64;./../../lib/vc16win64;./../../../../PxShared/lib/vc16win64;./../../Graphics/lib/win64/glut;./../../_lib/PxShared/lib/vc16win64;./../../_lib/vc16win64;%(AdditionalLibraryDirectories);$(DXSDK_DIR)/Lib/x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Winmm.lib;d3d11.lib;d3d9.lib;OpenGL32.lib;glut32.lib;assimp-vc143-mtd.lib;event_core.lib;event_extra.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/LIBPATH:../../../Lib/vc16win64 PhysX3CommonDEBUG_x64.lib PhysX3DEBUG_x64.lib PhysX3CookingDEBUG_x64.lib PhysX3CharacterKinematicDEBUG_x64.lib PhysX3ExtensionsDEBUG.lib PhysX3VehicleDEBUG.lib PxTaskDEBUG_x64.lib PxFoundationDEBUG_x64.lib PsFastXmlDEBUG_x64.lib PxPvdSDKDEBUG_x64.lib /LIBPATH:../../lib/vc16win64 UtilsDEBUG.lib /DEBUG</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>XCOPY "../../_lib/PxShared/bin\vc16win64\PxFoundationDEBUG_x64.dll" "$(OutDir)" /D /Y
+ XCOPY "../../_lib/PxShared/bin\vc16win64\PxPvdSDKDEBUG_x64.dll" "$(OutDir)" /D /Y
+</Command>
+    </PostBuildEvent>
+    <FxCompile>
+      <ShaderModel>5.1</ShaderModel>
+      <AllResourcesBound>true</AllResourcesBound>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>./../../../Include;./../../../../PxShared/include;./../../../../PxShared/src/foundation/include;./../../../../PxShared/src/fastxml/include;./../../Graphics/include/win32/GL;./../../_include/PxShared/include;./../../_include/PxShared/src/foundation/include;./../../_include/PxShared/src/fastxml/include;./../../_include/Include;./../../_include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>_HAS_EXCEPTIONS=0;WIN32;WIN64;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WINSOCK_DEPRECATED_NO_WARNINGS;PHYSX_PROFILE_SDK;RENDER_SNIPPET;NDEBUG;PX_SUPPORT_PVD=0;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>Winmm.lib;d3d11.lib;d3d9.lib;assimp-vc143-mt.lib;event_core.lib;event_extra.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(WindowsSDK_LibraryPath_x64);./../../../Common/lib/vc16win64;./../../lib/vc16win64;./../../../../PxShared/lib/vc16win64;./../../Graphics/lib/win64/glut;./../../_lib/PxShared/lib/vc16win64;./../../_lib/vc16win64;%(AdditionalLibraryDirectories);$(DXSDK_DIR)/Lib/x64</AdditionalLibraryDirectories>
+      <AdditionalOptions>/INCREMENTAL:NO /LIBPATH:../../../Lib/vc16win64 PhysX3Common_x64.lib PhysX3_x64.lib PhysX3Cooking_x64.lib PhysX3CharacterKinematic_x64.lib PhysX3Extensions.lib PhysX3Vehicle.lib PxTask_x64.lib PxFoundation_x64.lib PsFastXml_x64.lib PxPvdSDK_x64.lib /LIBPATH:../../lib/vc16win64 Utils.lib</AdditionalOptions>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+    <FxCompile>
+      <ShaderModel>5.1</ShaderModel>
+      <AllResourcesBound>true</AllResourcesBound>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
